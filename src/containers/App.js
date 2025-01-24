@@ -26,8 +26,6 @@ class App extends Component {
 
 	onSearchChange = (event) => {
 		this.setState({searchfield: event.target.value})
-		console.log(filteredRobots);
-
 		}
 	
 
